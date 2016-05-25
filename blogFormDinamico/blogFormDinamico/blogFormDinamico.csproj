@@ -57,9 +57,30 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="frmCadastroCampos.aspx" />
+    <Content Include="frmCadastroFormulario.aspx" />
+    <Content Include="frmFormularioPadrao.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmCadastroCampos.aspx.cs">
+      <DependentUpon>frmCadastroCampos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroCampos.aspx.designer.cs">
+      <DependentUpon>frmCadastroCampos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroFormulario.aspx.cs">
+      <DependentUpon>frmCadastroFormulario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroFormulario.aspx.designer.cs">
+      <DependentUpon>frmCadastroFormulario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmFormularioPadrao.aspx.cs">
+      <DependentUpon>frmFormularioPadrao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmFormularioPadrao.aspx.designer.cs">
+      <DependentUpon>frmFormularioPadrao.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
