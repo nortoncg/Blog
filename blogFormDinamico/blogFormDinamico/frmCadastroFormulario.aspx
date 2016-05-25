@@ -22,7 +22,7 @@
         Permissão:
         <asp:TextBox ID="txtPermissao" runat="server"></asp:TextBox>
         <br />
-        <asp:Button ID="btnGravar" runat="server" Text="Gravar" />
+        <asp:Button ID="btnGravar" runat="server" Text="Gravar" OnClick="btnGravar_Click" />
     
     </div>
     </form>

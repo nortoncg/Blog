@@ -13,5 +13,10 @@ namespace FormDinamico
         {
 
         }
+
+        protected void btnGravar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

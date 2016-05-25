@@ -65,22 +65,27 @@
   <ItemGroup>
     <Compile Include="frmCadastroCampos.aspx.cs">
       <DependentUpon>frmCadastroCampos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmCadastroCampos.aspx.designer.cs">
       <DependentUpon>frmCadastroCampos.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmCadastroFormulario.aspx.cs">
       <DependentUpon>frmCadastroFormulario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmCadastroFormulario.aspx.designer.cs">
       <DependentUpon>frmCadastroFormulario.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmFormularioPadrao.aspx.cs">
       <DependentUpon>frmFormularioPadrao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmFormularioPadrao.aspx.designer.cs">
       <DependentUpon>frmFormularioPadrao.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Negocio\Formularios.cs" />
+    <Compile Include="Persistencia\pFormularios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -91,10 +96,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Negocio\" />
-    <Folder Include="Persistencia\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
